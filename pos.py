@@ -1,9 +1,13 @@
 '''
 Created on Jan 9, 2014
 
-Example of using Moby and WordNet to identify part of speech, focus on whether or not a description begins with a noun.
-
 @author: mherron
+
+Example of using Moby(tm) and WordNet part of speech database to identify part of speech, focus on whether or not a description begins with a noun.
+
+Dependency: This uses the part-of-speech.txt file created by Kevin Atkinson <kevina@users.sourceforge.net>, which is a combination
+of "Moby (tm) Part-of-Speech II" and the WordNet database, available at http://aspell.sourceforge.net/wl/.
+
 To-do:
  - handle hyphenated words (usually they are adjectives)
  - handle other plural forms (currently I only tack an 's' on)
